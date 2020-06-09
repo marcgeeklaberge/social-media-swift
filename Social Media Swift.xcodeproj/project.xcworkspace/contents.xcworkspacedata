@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Social Media Integration.xcodeproj">
+      location = "self:/Users/marc-antoine.laberge/Code/social-media-swift/Social Media Swift.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Social Media Integration
+//  Social Media Swift
 //
 //  Created by Marc-Antoine Laberge on 2020-06-08.
 //  Copyright © 2020 Marc-Antoine Laberge. All rights reserved.
