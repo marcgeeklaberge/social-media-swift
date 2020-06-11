@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		89E081C6248FDAC100A0E7B2 /* BaseActivityItemSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E081C5248FDAC100A0E7B2 /* BaseActivityItemSource.swift */; };
+		89E081CA24903D3D00A0E7B2 /* BaseActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E081C924903D3D00A0E7B2 /* BaseActivity.swift */; };
+		89E081CD2491184500A0E7B2 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E081CC2491184500A0E7B2 /* UIView.swift */; };
 		89E34895248ED3C500A22431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E34894248ED3C500A22431 /* AppDelegate.swift */; };
 		89E34897248ED3C500A22431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E34896248ED3C500A22431 /* SceneDelegate.swift */; };
 		89E34899248ED3C500A22431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E34898248ED3C500A22431 /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 
 /* Begin PBXFileReference section */
 		89E081C5248FDAC100A0E7B2 /* BaseActivityItemSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseActivityItemSource.swift; sourceTree = "<group>"; };
+		89E081C924903D3D00A0E7B2 /* BaseActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseActivity.swift; sourceTree = "<group>"; };
+		89E081CC2491184500A0E7B2 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		89E34891248ED3C500A22431 /* Share.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Share.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89E34894248ED3C500A22431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89E34896248ED3C500A22431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		89E081CB2491182C00A0E7B2 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				89E081CC2491184500A0E7B2 /* UIView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		89E34888248ED3C500A22431 = {
 			isa = PBXGroup;
 			children = (
@@ -64,6 +76,7 @@
 		89E34893248ED3C500A22431 /* Social Media Swift */ = {
 			isa = PBXGroup;
 			children = (
+				89E081CB2491182C00A0E7B2 /* Extensions */,
 				89E34894248ED3C500A22431 /* AppDelegate.swift */,
 				89E34896248ED3C500A22431 /* SceneDelegate.swift */,
 				89E34898248ED3C500A22431 /* ViewController.swift */,
@@ -75,6 +88,7 @@
 				89E348C4248EDB8E00A22431 /* TextActivityItemSource.swift */,
 				89E348C6248EE24C00A22431 /* ImageActivityItemSource.swift */,
 				89E348C8248EE34600A22431 /* UrlActivityItemSource.swift */,
+				89E081C924903D3D00A0E7B2 /* BaseActivity.swift */,
 			);
 			path = "Social Media Swift";
 			sourceTree = "<group>";
@@ -155,7 +169,9 @@
 				89E348C5248EDB8E00A22431 /* TextActivityItemSource.swift in Sources */,
 				89E34895248ED3C500A22431 /* AppDelegate.swift in Sources */,
 				89E348C9248EE34600A22431 /* UrlActivityItemSource.swift in Sources */,
+				89E081CA24903D3D00A0E7B2 /* BaseActivity.swift in Sources */,
 				89E081C6248FDAC100A0E7B2 /* BaseActivityItemSource.swift in Sources */,
+				89E081CD2491184500A0E7B2 /* UIView.swift in Sources */,
 				89E34897248ED3C500A22431 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
